@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex justify-center items-center">
         <img src={Logo} className="w-[74px] h-[74px] mr-[23px]" alt="" />
         <span className="text-[32px] font-['DMSans'] font-medium text-[#3B2762]">
-          Instance
+          Instance AI
         </span>
       </div>
       <div className="flex justify-center items-center">

@@ -39,10 +39,12 @@ const Home = () => {
               <span className="mr-[32px] flex-shrink-0">Play to ace your next</span>
               <TextCarousel />
             </div>
-            <div className="text-[24px] font-['DmSans'] font-normal text-[#000]  leading-[24px] mt-[128px] mb-[18px]">
-              Download our iOS app
-            </div>
-            <img className="w-[196px] mb-[44px]" src={AppStore} alt="" />
+            <a href="https://apps.apple.com/us/app/instance-ai-english-practice/id6467774837" target="_blank" rel="noopener noreferrer">
+              <div className="text-[24px] font-['DmSans'] font-normal text-[#000] leading-[24px] mt-[128px] mb-[18px]">
+                Download our iOS app
+              </div>
+              <img className="w-[196px] mb-[44px]" src={AppStore} alt="Download on the App Store" />
+            </a>
           </div>
         </div>
       </div>
