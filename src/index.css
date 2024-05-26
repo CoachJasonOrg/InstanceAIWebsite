@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'DmSans';
+    src: url('./assets/fonts/DMSans-VariableFont_opsz,wght.ttf');
+    /* 注意路径 */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+    /* 注意路径 */
+}
+
+.gradient-text {
+    font-size: 48px;
+    background: -webkit-linear-gradient(#6505B4, #CD1D9C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(#6505B4, #CD1D9C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.text-area {
+    max-width: 1200px;
+    /* Restricts the maximum width of the text area */
+}
+
+.images-container {
+    /* Adjust the spacing and sizing as necessary to fit your design */
+}
+
+.text-9xl {
+    font-size: 72px;
+    /* Example size, adjust based on your design */
+}
+
+.text-5xl {
+    font-size: 40px;
+}
+
+.text-3xl {
+    font-size: 24px;
+}
+
+.w-68 {
+    width: 273px;
+    /* Width of the images */
+}
+
+.w-48 {
+    width: 196px;
+    /* Width of the download button image */
+}
+
+.mr-8 {
+    margin-right: 32px;
+    /* Margin right */
+}
+
+.mb-11 {
+    margin-bottom: 44px;
+}
