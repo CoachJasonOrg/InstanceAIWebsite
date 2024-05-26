@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/InstanceAIWebsite/static/css/main.ddaefbba.css",
+    "main.js": "/InstanceAIWebsite/static/js/main.dd467422.js",
+    "static/js/453.193348c2.chunk.js": "/InstanceAIWebsite/static/js/453.193348c2.chunk.js",
+    "static/media/Frame2.svg": "/InstanceAIWebsite/static/media/Frame2.f677a7aa25ee1310861f4aa6c132a936.svg",
+    "static/media/Frame1.svg": "/InstanceAIWebsite/static/media/Frame1.cc2913fc746a39385267d6d785c24c7e.svg",
+    "static/media/DMSans-VariableFont_opsz,wght.ttf": "/InstanceAIWebsite/static/media/DMSans-VariableFont_opsz,wght.b230ddb7eabb4b25e123.ttf",
+    "static/media/Poppins-Regular.ttf": "/InstanceAIWebsite/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/appStore.svg": "/InstanceAIWebsite/static/media/appStore.a15705994a649ae1e57b6f3b12f09fc0.svg",
+    "static/media/slick.svg": "/InstanceAIWebsite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/InstanceAIWebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/InstanceAIWebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/InstanceAIWebsite/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/logo.svg": "/InstanceAIWebsite/static/media/logo.a8400232e23697fff8864f5ce5dc94b8.svg",
+    "index.html": "/InstanceAIWebsite/index.html",
+    "main.ddaefbba.css.map": "/InstanceAIWebsite/static/css/main.ddaefbba.css.map",
+    "main.dd467422.js.map": "/InstanceAIWebsite/static/js/main.dd467422.js.map",
+    "453.193348c2.chunk.js.map": "/InstanceAIWebsite/static/js/453.193348c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddaefbba.css",
+    "static/js/main.dd467422.js"
+  ]
+}
