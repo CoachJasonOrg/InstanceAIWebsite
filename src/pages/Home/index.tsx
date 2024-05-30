@@ -4,7 +4,7 @@ import Frame1 from "../../assets/icons/Frame1.svg";
 import Frame2 from "../../assets/icons/Frame2.svg";
 import Footer from "../../comonents/Footer";
 import TextCarousel from "../../comonents/TextCarousel";
-
+declare const gtag: any;
 const ContentData = [
   {
     id: 1,
@@ -39,7 +39,15 @@ const Home = () => {
               <span className="mr-[32px] flex-shrink-0">Play to ace your next</span>
               <TextCarousel />
             </div>
-            <a href="https://apps.apple.com/us/app/instance-ai-english-practice/id6467774837" target="_blank" rel="noopener noreferrer">
+            <a href="https://apps.apple.com/app/apple-store/id6467774837?pt=126654624&ct=web&mt=8"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => {
+                gtag('event', 'click', {
+                  'event_category': 'App Downloads',
+                  'event_label': 'iOS App Store Download'
+                });
+              }}>
               <div className="text-[24px] font-['DmSans'] font-normal text-[#000] leading-[24px] mt-[128px] mb-[18px]">
                 Download our iOS app
               </div>
