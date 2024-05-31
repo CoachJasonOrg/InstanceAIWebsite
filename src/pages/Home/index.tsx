@@ -10,13 +10,13 @@ const ContentData = [
     id: 1,
     title: "To Boost Your Career",
     content:
-      "Get real english immersion and review call report feedback instantly",
+      "Conduct mock interviews, host meetings, and engage in small talk, all with instant feedback.",
   },
   {
     id: 2,
     title: "To Improve Your Daily Conversation",
     content:
-      "Speak with AI Companions and practice with bite-sized, personalized lessons",
+      "Speak with AI companions and learn authentic expressions from bite-sized, personalized lessons",
   },
 ];
 
@@ -32,8 +32,8 @@ const Home = () => {
           <div className="md:ml-6 ">
             <div className="rounded-full absolute w-72 h-72 -left-40 -top-20 md:w-[664px] md:h-[630px] md:-left-[334px] z-[-1] md:top-[50px] bg-[#E5DFFF]" />
             <div className="text-3xl md:text-[72px] font-['Poppins'] font-bold text-[#4D3380] md:leading-[108px]">
-              <div>An English Learning</div>
-              <div>Role-Playing Game</div>
+              <div>Your Personal English</div>
+              <div>Speaking Coach</div>
             </div>
             <div className=" text-base md:text-[40px] font-['Poppins'] font-medium text-[#08113F] leading-6 md:leading-[72px] mt-[37px] flex items-center">
               <span className="mr-4 md:mr-8 flex-shrink-0">Play to ace your next</span>
