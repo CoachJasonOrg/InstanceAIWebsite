@@ -11,7 +11,7 @@ const TextCarousel = () => {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
-
+    arrows: false,
   };
   return (
       <Slider {...settings}>

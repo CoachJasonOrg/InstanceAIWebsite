@@ -13,9 +13,9 @@
     src: url('./assets/fonts/Poppins-Regular.ttf');
     /* 注意路径 */
 }
-
+@media (min-width: 768px) {
+}
 .gradient-text {
-    font-size: 48px;
     background: -webkit-linear-gradient(#6505B4, #CD1D9C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

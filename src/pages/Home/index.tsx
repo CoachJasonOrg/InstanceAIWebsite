@@ -23,20 +23,20 @@ const ContentData = [
 const Home = () => {
   return (
     <div className="relative w-screen overflow-x-hidden">
-      <div className="rounded-full absolute w-[997px] h-[997px] left-[882px] z-[-1] -top-[563px] bg-[#E5DFFF]" />
+      <div className="hidden md:block rounded-full absolute w-[997px] h-[997px] right-[-370px] z-[-99] -top-[563px] bg-[#E5DFFF]" />
       <Header />
       <div className="flex-grow flex justify-center items-center">
-        <img className="w-[273px] absolute top-[221px] left-[919px]" src={Frame1} alt="" />
-        <img className="w-[273px] absolute top-[152px] left-[1114px] z-10" src={Frame2} alt="" />
-        <div className="mt-[128px] mx-[35px] border-b-[1px] border-[#BABDC3] mb-4 relative">
-          <div className="ml-[24px] ">
-            <div className="rounded-full absolute w-[664px] h-[630px] -left-[334px] z-[-1] top-[50px] bg-[#E5DFFF]" />
-            <div className="text-[72px] font-['Poppins'] font-bold text-[#4D3380]  leading-[108px]">
+        <img className="hidden md:block w-[273px] absolute top-[221px] right-[320px] z-[-11]" src={Frame1} alt="" />
+        <img className="hidden md:block w-[273px] absolute top-[152px] right-[126px] z-[-10]" src={Frame2} alt="" />
+        <div className="mt-[128px] px-8 border-b-[1px] border-[#BABDC3] mb-4 relative w-screen">
+          <div className="md:ml-6 ">
+            <div className="rounded-full absolute w-72 h-72 -left-40 -top-20 md:w-[664px] md:h-[630px] md:-left-[334px] z-[-1] md:top-[50px] bg-[#E5DFFF]" />
+            <div className="text-3xl md:text-[72px] font-['Poppins'] font-bold text-[#4D3380] md:leading-[108px]">
               <div>An English Learning</div>
               <div>Role-Playing Game</div>
             </div>
-            <div className="text-[40px] font-['Poppins'] font-medium text-[#08113F]  leading-[72px] mt-[37px] flex items-center">
-              <span className="mr-[32px] flex-shrink-0">Play to ace your next</span>
+            <div className=" text-base md:text-[40px] font-['Poppins'] font-medium text-[#08113F] leading-6 md:leading-[72px] mt-[37px] flex items-center">
+              <span className="mr-4 md:mr-8 flex-shrink-0">Play to ace your next</span>
               <TextCarousel />
             </div>
             <a href="https://apps.apple.com/app/apple-store/id6467774837?pt=126654624&ct=web&mt=8"
@@ -56,9 +56,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between px-[109px] py-[94px]">
+      <div className="flex justify-between flex-wrap mx-10 md:px-[109px] pb-[96px]">
         {ContentData.map((item) => (
-          <div className="w-[446px] relative" key={item.id}>
+          <div className="w-[446px] relative mt-[94px]" key={item.id}>
             <div className="absolute w-[73px] h-[69px] left-[-37px] z-[-2] -top-[24px]">
               <div className="rounded-full w-[73px] h-[69px] bg-[#E5DFFF] flex justify-center items-center" >
                 <div className="rounded-full w-[58px] h-[55px] bg-[#D1C3F6]" />
